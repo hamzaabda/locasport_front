@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="60" viewBox="0 0 120 60" fill="none">
+  <!-- Cercle dynamique -->
+  <circle cx="30" cy="30" r="20" stroke="#1E90FF" stroke-width="4" />
+  <!-- Silhouette stylisée d'un sportif courant -->
+  <path d="M28 22c0-3 2-5 5-5s5 2 5 5-2 5-5 5-5-2-5-5z" fill="#1E90FF"/>
+  <path d="M33 27l4 5c2 2 0 4-1 4h-5l-4 6" stroke="#1E90FF" stroke-width="2" fill="none" />
+  
+  <!-- Texte moderne -->
+  <text x="55" y="35" font-family="Arial, sans-serif" font-size="18" fill="#333">Locasport</text>
+  <text x="55" y="50" font-family="Arial, sans-serif" font-size="10" fill="#6B6A7E">Énergie et mouvement</text>
+</svg>

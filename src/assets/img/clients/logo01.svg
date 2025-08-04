@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" viewBox="0 0 300 100">
+  <!-- Texte du logo -->
+  <text x="100" y="60" font-family="Arial, sans-serif" font-size="30" fill="#2E3A59" font-weight="bold">
+    LocaSport
+  </text>
+
+  <!-- Icône Football -->
+  <circle cx="30" cy="50" r="15" fill="#4CAF50" stroke="#2E3A59" stroke-width="2"/>
+  <text x="22" y="56" font-size="14" fill="white">⚽</text>
+
+  <!-- Icône Basketball -->
+  <circle cx="60" cy="50" r="15" fill="#FF9800" stroke="#2E3A59" stroke-width="2"/>
+  <text x="52" y="56" font-size="14" fill="white">🏀</text>
+
+  <!-- Icône Tennis -->
+  <circle cx="90" cy="50" r="15" fill="#8BC34A" stroke="#2E3A59" stroke-width="2"/>
+  <text x="83" y="56" font-size="14" fill="white">🎾</text>
+</svg>

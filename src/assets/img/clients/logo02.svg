@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80.691" height="56.423" viewBox="0 0 80.691 56.423">
+  <g transform="translate(0 0)">
+    <!-- Cadre extérieur -->
+    <rect x="2" y="2" width="76.691" height="52.423" rx="8" ry="8" fill="#34c759" stroke="#1e1e1e" stroke-width="2" />
+    
+    <!-- Texte LOCASPORT -->
+    <text x="40" y="18" text-anchor="middle" font-size="10" fill="#ffffff" font-family="Arial, sans-serif" font-weight="bold">
+      LOCASPORT
+    </text>
+
+    <!-- Icône de sport (ex: ballon) -->
+    <circle cx="20" cy="38" r="6" fill="#ffffff" stroke="#1e1e1e" stroke-width="1.5" />
+    <line x1="16" y1="34" x2="24" y2="42" stroke="#34c759" stroke-width="1.5" />
+    <line x1="16" y1="42" x2="24" y2="34" stroke="#34c759" stroke-width="1.5" />
+
+    <!-- Texte slogan -->
+    <text x="40" y="50" text-anchor="middle" font-size="6" fill="#ffffff" font-family="Arial, sans-serif">
+      Bouge avec nous !
+    </text>
+  </g>
+</svg>

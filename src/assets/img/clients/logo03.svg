@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.95" height="70.181" viewBox="0 0 70.95 70.181">
+  <defs>
+    <style>
+      .locasport-fill { fill: #3BB273; } /* Couleur principale */
+    </style>
+  </defs>
+  <!-- Exemple de forme simplifiée -->
+  <circle cx="35.475" cy="35.0905" r="34" stroke="#3BB273" stroke-width="2" fill="none" />
+  <!-- Icône simplifiée au centre -->
+  <g transform="translate(20 20)">
+    <rect x="0" y="0" width="30" height="30" rx="6" class="locasport-fill"/>
+    <path d="M10 15 L15 20 L25 10" stroke="#fff" stroke-width="2" fill="none"/>
+  </g>
+  <!-- Texte de démonstration stylisé -->
+  <text x="50%" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#3BB273">Locasport</text>
+</svg>
