@@ -21,50 +21,54 @@ export default function Services() {
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Services</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
-            </p>
+           <h1 className="font40 extraBold">Nos Services Locasport</h1>
+<p className="font13">
+  LocaSport vous permet de réserver facilement des terrains de football, basketball ou tennis près de chez vous.
+  <br />
+  Profitez d'une expérience simple, rapide et sécurisée pour vos matchs entre amis ou entraînements.
+</p>
+
           </HeaderInfo>
           <ServiceBoxRow className="flex">
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="roller"
-                title="Graphic Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+               title="Réservation Football"
+      subtitle="Trouvez et réservez facilement des terrains de football près de chez vous pour vos matchs ou entraînements."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
-                title="Web Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+                 title="Réservation Basketball"
+      subtitle="Louez un terrain de basketball en quelques clics, à l’heure qui vous convient le mieux."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="browser"
-                title="Development"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+                title="Réservation Tennis"
+                subtitle="Profitez d’une plateforme simple pour réserver des courts de tennis rapidement et efficacement."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
-              <ServiceBox icon="printer" title="Print" subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor." />
-            </ServiceBoxWrapper>
+              <ServiceBox icon="printer" 
+             title="Gestion des Réservations"
+             subtitle="Consultez, modifiez ou annulez vos réservations en toute liberté depuis votre espace personnel."
+           />
+         </ServiceBoxWrapper>
           </ServiceBoxRow>
         </div>
         <div className="lightBg">
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
-                <h4 className="font15 semiBold">A few words about company</h4>
-                <h2 className="font40 extraBold">A Study of Creativity</h2>
-                <p className="font12">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                  diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                </p>
+              <h4 className="font15 semiBold">À propos de LocaSport</h4>
+        <h2 className="font40 extraBold">Louez facilement vos terrains de sport préférés</h2>
+        <p className="font12">
+          LocaSport est une application dédiée aux passionnés de sport qui souhaitent louer des terrains de football, basketball ou tennis en toute simplicité. 
+          Trouvez, réservez et jouez où et quand vous le voulez, sans tracas.
+        </p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px" }}>
                     <FullButton title="Get Started" action={() => alert("clicked")} />
