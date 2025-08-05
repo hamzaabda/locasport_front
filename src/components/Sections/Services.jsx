@@ -69,14 +69,7 @@ export default function Services() {
           LocaSport est une application dédiée aux passionnés de sport qui souhaitent louer des terrains de football, basketball ou tennis en toute simplicité. 
           Trouvez, réservez et jouez où et quand vous le voulez, sans tracas.
         </p>
-                <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
-                  <div style={{ width: "190px" }}>
-                    <FullButton title="Get Started" action={() => alert("clicked")} />
-                  </div>
-                  <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton title="Contact Us" action={() => alert("clicked")} border />
-                  </div>
-                </ButtonsRow>
+              
               </AddLeft>
               <AddRight>
                 <AddRightInner>

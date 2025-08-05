@@ -18,35 +18,35 @@ export default function Projects() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Projects</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
-            </p>
+          <h1 className="font40 extraBold">Nos Terrains Disponibles</h1>
+<p className="font13">
+  Découvrez une sélection de terrains de <strong>football</strong>, <strong>basketball</strong> et <strong>tennis</strong> à louer près de chez vous.
+  <br />
+  Réservez facilement votre créneau et profitez d'infrastructures de qualité pour vos sessions sportives.
+</p>
           </HeaderInfo>
           <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg1}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Terrain de Football"
+                text="Réservez facilement votre terrain de football à l'heure souhaitée. Parfait pour vos matchs entre amis ou entraînements."
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg2}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Terrain de Football"
+                text="Découvrez les meilleurs terrains de football à louer autour de vous. Locasport vous permet de réserver en quelques clics selon vos créneaux préférés."
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg3}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Terrains de Basketball"
+                text="Découvrez et réservez facilement des terrains de basketball adaptés à tous les niveaux. Profitez d’installations de qualité, disponibles à tout moment via LocaSport."                
                 action={() => alert("clicked")}
               />
             </div>
@@ -55,31 +55,31 @@ export default function Projects() {
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg4}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Jouez au Basketball avec LocaSport"
+                text="Louez un terrain de basketball près de chez vous en quelques clics. Réservez, jouez, profitez ! LocaSport rend le sport accessible à tous."                
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg5}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Terrains de Tennis Disponibles"
+text="Découvrez nos terrains de tennis de haute qualité, disponibles à la location pour vos entraînements ou compétitions. Réservez facilement votre créneau via l’application Locasport."
                 action={() => alert("clicked")}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={ProjectImg6}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Terrains de Basketball à Louer"
+                text="Que vous soyez débutant ou pro, trouvez le terrain de basketball idéal près de chez vous. Disponibilité flexible et tarifs adaptés sur LocaSport."                
                 action={() => alert("clicked")}
               />
             </div>
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title="Load More" action={() => alert("clicked")} />
+      
             </div>
           </div>
         </div>
@@ -95,20 +95,13 @@ export default function Projects() {
               </AddLeftInner>
             </AddLeft>
             <AddRight>
-              <h4 className="font15 semiBold">A few words about company</h4>
-              <h2 className="font40 extraBold">A Study of Creativity</h2>
-              <p className="font12">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-              </p>
-              <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
-                <div style={{ width: "190px" }}>
-                  <FullButton title="Get Started" action={() => alert("clicked")} />
-                </div>
-                <div style={{ width: "190px", marginLeft: "15px" }}>
-                  <FullButton title="Contact Us" action={() => alert("clicked")} border />
-                </div>
-              </ButtonsRow>
+            <h4 className="font15 semiBold">À propos de LocaSport</h4>
+<h2 className="font40 extraBold">Louez facilement vos terrains de sport préférés</h2>
+<p className="font12">
+  LocaSport est une application dédiée aux passionnés de sport qui souhaitent louer des terrains de football, basketball ou tennis en toute simplicité. Réservez votre créneau, jouez avec vos amis et profitez d’une expérience sportive optimale.
+</p>
+
+             
             </AddRight>
           </Advertising>
         </div>

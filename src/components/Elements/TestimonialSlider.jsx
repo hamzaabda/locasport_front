@@ -28,45 +28,46 @@ export default function TestimonialSlider() {
       },
     ],
   };
+
+  // Liste des témoignages sans noms, uniquement avis et date relative
+  const testimonials = [
+    {
+      text: "J’ai facilement réservé un terrain de football grâce à Locasport, service très pratique !",
+      date: "il y a 2 jours",
+    },
+    {
+      text: "Les terrains de tennis sont bien entretenus et la réservation est rapide.",
+      date: "il y a 1 semaine",
+    },
+    {
+      text: "Application simple d’utilisation, parfait pour organiser mes matchs de basketball.",
+      date: "il y a 3 jours",
+    },
+    {
+      text: "Les tarifs sont raisonnables et la disponibilité des terrains est très bonne.",
+      date: "il y a 5 jours",
+    },
+    {
+      text: "Service client réactif et plateforme intuitive, je recommande Locasport.",
+      date: "il y a 1 mois",
+    },
+    {
+      text: "Locasport facilite vraiment la vie des adhérents pour louer leurs terrains préférés.",
+      date: "il y a 2 semaines",
+    },
+  ];
+
   return (
     <div>
       <Slider {...settings}>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
-        <LogoWrapper className="flexCenter">
-          <TestimonialBox
-            text="Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it."
-            author="Ralph Waldo Emerson"
-          />
-        </LogoWrapper>
+        {testimonials.map((item, index) => (
+          <LogoWrapper key={index} className="flexCenter">
+            <TestimonialBox
+              text={item.text}
+              author={item.date} // On affiche ici juste la date relative, pas de nom
+            />
+          </LogoWrapper>
+        ))}
       </Slider>
     </div>
   );
