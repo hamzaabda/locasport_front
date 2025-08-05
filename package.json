@@ -1,6 +1,7 @@
 {
-  "name": "my-app",
+  "name": "locasport",
   "version": "0.1.0",
+  "author": "Hamza Abda",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
